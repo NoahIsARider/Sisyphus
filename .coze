@@ -1,0 +1,13 @@
+[project]
+sub_id = "2b74e377"
+name = "sisyphus"
+requires = ["python-3.12"]
+project_type = ""
+version = "0.0.32"
+entrypoint = "sisyphus_game.py"
+
+[preview]
+preview_enable = "disabled"
+
+[subprojects]
+path = ["."]
