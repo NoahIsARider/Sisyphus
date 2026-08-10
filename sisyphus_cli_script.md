@@ -1007,12 +1007,17 @@ He leans back.
 
 "I'm trying to see what kind of anger you brought back with you. There's more than one."
 
+His eyes stay on Jonah's mouth a second longer than the conversation needs.
+When Jonah wets his lip without thinking, Bell notices that too and does not offer the mercy of looking away.
+
 If the player `DRINK`, continue:
 
 ```text
 The whiskey goes down medicinal and vindictive. For a moment you feel it making neat little fires in the places memory prefers damp. Bell notices, of course.
 
 "There's the state boy," he says softly. "Turning poison into posture."
+
+He watches Jonah swallow with the patience of a man waiting to see whether desire and opportunity will decide to use the same door.
 ```
 
 Each repeated `DRINK` should cost `LUCIDITY -1` and alter later `THINK` lines.
@@ -1050,7 +1055,7 @@ Near midnight Bell pays in cash, tells nobody goodnight, and takes you out throu
 
 He takes you to an annex behind the station that used to hold traffic records and now holds everything the official system had no place for but somebody with a badge couldn't bear to throw away.
 
-The room smells of dust, damp cardboard, and old cigarettes smoked by men who believed secrecy itself had a scent worth preserving.
+The room smells of dust, damp cardboard, and old cigarettes smoked by men who believed secrecy itself had a scent worth preserving. Bell closes the door with more care than the law requires. For a minute the envelope stays untouched while he stands close enough for the whole exchange to become deniable. His fingers find Jonah's hand first, not to shake it, only to turn it over as if there were something written in the palm worth reading. Later he smooths a hand once through Jonah's hair with the absentminded care of a man pretending this is tenderness and not leverage. Jonah lets none of it stop because the envelope remains untouched on purpose. By the time Bell finally leaves the packet on the desk and Jonah has put his clothes back into order, the county's oldest bargain has already been conducted in private.
 
 "Off-book files," Bell says. "Half of law enforcement is knowing which drawer never existed."
 
@@ -1126,6 +1131,8 @@ If the player calls Mara, set `OUTSIDE_CONTACT = true`. The conversation should 
 "Jonah."
 
 He waits because her saying his name has always felt like somebody setting down a glass carefully.
+
+He uses the pause to fix one cuff and hates how quickly the gesture feels like training. His hair refuses the shape he gave it back.
 
 "Whatever this town taught you," she says, "it also taught you that pain becomes truth if it lasts long enough. That isn't always real. Sometimes pain is just pain. Send what you have. Don't let them build a church out of your confusion."
 ```
@@ -2562,6 +2569,8 @@ CHOIR: He's selling you the county's excuse because excuses are its only export 
 You realize he has been talking not to persuade you but to position you. To name the anger so it won't name him. To put a collar on the county's teeth and claim he's doing public safety.
 
 "And you," Bell adds, smiling, "you came back wearing the state's grammar. You know what that does to a place like this? It turns everybody's misery into a file. It turns every insult into motive. The county loves that. The county wants to feel structured while it rots."
+
+When Bell reaches across the table, it is only to brush an invisible fleck from Jonah's sleeve. He lets his knuckles drag just enough to make the gesture quit pretending to be accidental.
 
 GLASS: He's baiting you into defensiveness.
 RUST: He's right and he's weaponizing it.

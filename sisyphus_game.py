@@ -881,6 +881,10 @@ def make_scenes() -> List[Scene]:
                     Then, quieter: "You know what I hate about state boys? Not the badge. The tone. You all come in
                     talking like the world is a spreadsheet that simply needs better sorting."
 
+                    His eyes linger on your mouth a fraction longer than the conversation requires.
+                    When you wet your lip without thinking, he notices that too and does not grant either of you the
+                    courtesy of looking away.
+
                     He takes a slow sip as if tasting the county itself.
 
                     "You know what modernization did?" he asks. "It taught half this county to speak the language of
@@ -913,6 +917,9 @@ def make_scenes() -> List[Scene]:
                     a place like this? It turns everybody's misery into a file. It turns every insult into motive. The
                     county loves that. The county wants to feel structured while it rots."
 
+                    When he reaches across the table, it is only to brush an invisible fleck from your sleeve. He lets
+                    his knuckles drag just enough to make the gesture quit pretending to be accidental.
+
                     GLASS: He's baiting you into defensiveness.
                     RUST: He's right and he's weaponizing it.
                     MUD: Let him. Arguing will just make you louder.
@@ -926,7 +933,8 @@ def make_scenes() -> List[Scene]:
                     The whiskey tastes of oak, sugar, and municipal despair. Around here, drinking is often mistaken for
                     honesty because both eventually lower the lights. You can feel your mind trying to translate the
                     county into something manageable: a case file, a motive, a list of names. Whiskey teaches a different
-                    grammar. It makes everything sound inevitable.
+                    grammar. It makes everything sound inevitable. Bell watches you swallow with the patience of a man
+                    waiting to see whether desire and opportunity will decide to use the same door.
                     """,
                     effect=_drink_whiskey,
                     once=False,
@@ -942,8 +950,13 @@ def make_scenes() -> List[Scene]:
             prose=dedent(
                 """
                 The annex room the county calls storage is really conscience overflow. A desk, a light with a bad buzz,
-                metal cabinets, a brown envelope left in the center like bait for an animal intelligent enough to
-                recognize paper but still vulnerable to salt.
+                metal cabinets, a lock turned with too much care. For a minute the brown envelope stays untouched while
+                Bell stands close enough for the whole exchange to become deniable. His fingers find your hand first,
+                not to shake it, only to turn it over as if there were something written in the palm worth reading.
+                Later he smooths a hand once through your hair with the absentminded care of a man pretending this is
+                tenderness and not leverage. You let none of it stop because the envelope remains unopened on purpose.
+                By the time he finally leaves the packet in the center of the desk and you have finished putting your
+                clothes back into county order, the county's oldest bargain has already been conducted in private.
                 """
             ).strip(),
             think="GLASS: Open it.\nRUST: County power keeps backups for guilt the way churches keep basements.\nMUD: Leave it sealed.\nCHOIR: He wants you implicated because implicated men are predictable.",
@@ -974,7 +987,8 @@ def make_scenes() -> List[Scene]:
             prose=dedent(
                 """
                 Outside the annex, night has become a material rather than an absence. Your car smells of paper, whiskey,
-                and Bell's cologne. The phone in your pocket feels like an accusation with reception.
+                and cologne. One cuff sits wrong where you fixed it too quickly and your hair refuses the shape you gave
+                it back. The phone in your pocket feels like an accusation with reception.
                 """
             ).strip(),
             think="GLASS: Call someone from away.\nRUST: Distance is not innocence. It is shipping.\nMUD: Stay in the parking lot until language blurs.\nCHOIR: The town always re-enters the line.",
