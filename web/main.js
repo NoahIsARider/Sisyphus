@@ -126,13 +126,33 @@
 
   // ---------------------------------------------------------------
   // Boot Pyodide from local files, then run the game.
+  //
+  // indexURL must be an absolute URL derived from this script's own
+  // location: relative paths break when the game is embedded in an
+  // iframe (itch.io) or served from a sub-path. All Pyodide files
+  // (pyodide.asm.wasm, python_stdlib.zip, pyodide-lock.json) are
+  // resolved against it.
   // ---------------------------------------------------------------
   const loading = document.getElementById("loading");
 
+  function pyodideBase() {
+    const scriptSrc = document.currentScript && document.currentScript.src;
+    if (scriptSrc) {
+      return scriptSrc.slice(0, scriptSrc.lastIndexOf("/") + 1) + "pyodide/";
+    }
+    // Fallback: page location
+    return new URL("pyodide/", document.baseURI).href;
+  }
+
   async function boot() {
     try {
+      const base = pyodideBase();
       const pyodide = await loadPyodide({
-        indexURL: "pyodide/",
+        indexURL: base,
+        // Some static hosts (itch.io) block .zip files, which would make
+        // Pyodide fail with "Failed to import encodings". The stdlib is
+        // shipped under a neutral .data extension and pointed to explicitly.
+        stdLibURL: base + "python_stdlib.data",
         stdout: (s) => window.termWrite(s),
         stderr: (s) => window.termWrite(s),
       });
