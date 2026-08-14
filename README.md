@@ -11,6 +11,28 @@ The game is text-only, played entirely through typed commands in a terminal. The
 - Python 3.10 or later
 - No third-party dependencies
 
+## Play in the browser
+
+A browser build of the game runs entirely client-side — no server, no network calls.
+The original Python is executed by [Pyodide](https://pyodide.org) (Python compiled
+to WebAssembly); the terminal is [xterm.js](https://xtermjs.org).
+
+![Intro](assets/shot-intro.png)
+
+![First room](assets/shot-look.png)
+
+To build the web bundle yourself:
+
+```bash
+cd web
+python3 build.py            # generates sisyphus_web.py from the original game
+# serve the web/ directory with any static server and open index.html
+```
+
+`build.py` only rewrites I/O plumbing (`input()`/`print()`) into async bridges;
+the game logic itself is transformed with zero semantic changes (verified by
+automated playthroughs of all 19 scenes and all 4 endings).
+
 ## Running
 
 ```bash
