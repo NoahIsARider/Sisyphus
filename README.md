@@ -6,6 +6,12 @@ You are Jonah Mercer, a state investigator sent back to his dying hometown to ex
 
 The game is text-only, played entirely through typed commands in a terminal. There are no graphics, no sound, and no hand-holding. You read, you choose, and the story remembers.
 
+## Try it in your browser
+
+👉 **Play the web version on itch.io:** <https://noahisarider.itch.io/sisyphus>
+
+Everyone is welcome to try it out!
+
 ## Requirements
 
 - Python 3.10 or later
